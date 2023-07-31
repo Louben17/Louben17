@@ -1,0 +1,682 @@
+.col-main {
+  flex: 2;  
+}
+
+.col-complementary {
+  flex: 1;  
+}
+
+@media only screen and (min-width: 640px) {
+  .layout {
+    display: flex;         
+  }
+}
+
+.produkt {
+  max-width: 100%;
+}
+
+.col {
+  margin: 0 0px 0px 0;  
+}
+
+.ds-vertical-align { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.anasopetrolejgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.anasopetrolej {
+  background-color: #038baf;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.anasopetrolej h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.anasopetrolej p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.prirodniyogamat {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.celovky {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.celovka {
+  background-color: #595959;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.celovka h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.celovka p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.mons200 {
+  background-color: #f5a904;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.mons200 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.mons200 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.mons300 {
+  background-color: #b5bb3d;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.mons300 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.mons300 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.cell {
+  background-color: #005d7f;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.cell h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.cell p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.prirodniyogamat1 {
+  background-color: #9dabce;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.prirodniyogamat2 {
+  background-color: #83aba0;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.prirodniyogamat2 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.prirodniyogamat2 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro nadpis */
+.prirodniyogamat1 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.prirodniyogamat1 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.prirodniyogamat3 {
+  background-color: #61a4bf;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.prirodniyogamat3 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.prirodniyogamat3 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+/* Nastavení stylu pro jednotlivé buňky */
+.prirodniyogamat4 {
+  background-color: #61a4bf;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.prirodniyogamat4 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.prirodniyogamat4 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.anseris700 {
+  background-color: #3b9fc4;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.anseris700 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.anseris700 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.anasoseda {
+  background-color: #595959;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.anasoseda h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.anasoseda p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.batohbrisi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.brisi {
+  background-color: #efd51c;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.brisi h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.brisi p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.bezeckeboty {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.bezeckejoma {
+  background-color: #9f9a9f;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.bezeckejoma h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.bezeckejoma p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.skladacikarimatka {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.karimatkaskladaci {
+  background-color: #9f9a9f;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.karimatkaskladaci h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.karimatkaskladaci p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.varic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.varicalpinist {
+  background-color: #9f9a9f;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.varicalpinist h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.varicalpinist p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.hole {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.holeteleskopicke {
+  background-color: #d04e4f;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.holeteleskopicke h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.holeteleskopicke p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.sneznice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.sneznice1 {
+  background-color: #98979c;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.sneznice1 h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.sneznice1 p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+.stan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.stanprojednoho {
+  background-color: #88a3aa;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nastavení stylu pro nadpis */
+.stanprojednoho h2 {
+  font-family: 'Tittilium', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Nastavení stylu pro popis */
+.stanprojednoho p {
+  font-size: 12pt;
+  margin: 10pt;
+  color: #fff;
+}
+
+
+
+/* Media query pro zobrazení layoutu ve 2 sloupcích a 8 řádcích na menších obrazovkách */
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .prirodniyogamat {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .anasopetrolejgrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .stan {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skladacikarimatka {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .varic {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .celovky {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hole {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .batohbrisi {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bezeckeboty {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
